@@ -1,16 +1,16 @@
+﻿// See https://aka.ms/new-console-template for more information
 using System;
-
-public class SpareParts
+namespace Automotive
 {
-    string _spareName;
-
-    public SpareParts()
+    public class SpareParts
     {
-        _spareName = "Gear Box";
-    }
-
-    public void Display()
-    {
-        Console.WriteLine("SparePart Name : " + _spareName);
+        String spareName;
+            public SpareParts() {
+            spareName = "Gear Box";
+            }
+        public void Display()
+        {
+            Console.WriteLine("SpareParts Name : " + spareName);
+        }
     }
 }
